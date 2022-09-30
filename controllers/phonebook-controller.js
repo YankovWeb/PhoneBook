@@ -10,6 +10,5 @@ module.exports = {
     let number = req.body.number;
     phonebook.addNumber(name, number);
     res.redirect("/");
-    // TODO: add a phonebook object to the array
   },
 };
